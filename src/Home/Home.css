@@ -1,0 +1,22 @@
+.banner {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tiendacomida-6d3a8.appspot.com/o/2211.i402.010.S.m004.c13.Cartoon%20avocado%20flat%20composition.jpg?alt=media&token=a777ba3b-bbca-4df2-ab94-c232f7ada5a3);
+    background-position: top center;
+    background-size: cover;
+    padding: 22%;
+    position: relative;
+    z-index: 1;
+    color: white;
+    background-attachment: fixed; /* Efecto Visual */
+}
+
+.banner::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
